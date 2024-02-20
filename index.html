@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>tailwind</title>
+  </head>
+
+  <body>
+    <main class="w-full bg-white box-border">
+      <div class="bg-[#F4F4F4] w-full overflow-hidden">
+        <section class="max-w-[1440px] w-full mx-auto relative lg:pb-[20px]">
+          <div class="max-w-[1440px] w-full absolute">
+            <div
+              class="m-auto w-[350px] absolute custom-gradient blur-[180px] opacity-40 inset-0 lg:w-[700px] h-[400px] mt-[10%]"
+            ></div>
+          </div>
+          <div
+            class="w-full items-center flex justify-between gap-[50px] relative z-50 pt-[16px] px-[16px] md:px-[80px] pb-[32px] min-h-[88px]"
+          >
+            <h1
+              class="max-w-[124px] font-bold flex text-[12px] lg:text-[24px] tracking-widest  font-Inter "
+            >
+              <a href="">HYPHEN</a>
+            </h1>
+            <div class="navmenu max-w-[751px] w-full lg:block hidden">
+              <ul
+                class="flex justify-between font-normal text-[14px] font-Poppins"
+              >
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Signup</a></li>
+              </ul>
+            </div>
+            <svg
+              class="lg:hidden block cursor-pointer"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+              width="15px"
+              height="15px"
+            >
+              <path
+                d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"
+              />
+            </svg>
+          </div>
+          <div
+            class="mx-[auto] my-4 lg:max-w-[733px] w-full flex flex-col items-center relative z-10 lg:my-[80px] ]"
+          >
+            <p
+              class="font-semibold font-Poppins leading-[50px] text-[44px] md:text-[50px] lg:text-[72px] tracking-[-2px] lg:leading-[90px] text-center"
+            >
+              Upcoming
+              <span
+                class="bg-gradient-to-r from-[#FD944E] to-[#1D4ED8] via-[#F56565] bg-clip-text text-transparent"
+                >events</span
+              >
+              <br />
+              and webinars
+            </p>
+            <p
+              class="font-normal font-Poppins items-center text-center text-[#4B5563] leading-[20px] text-xs lg:text-[20px] lg:leading-[32.9px] py-[16px]"
+            >
+              Here you can participate and learn about the latest trends <br />
+              that are impacting the world in the major ways
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="bg-[#FFFFFF] w-full">
+        <section class="max-w-[1440px] mx-auto w-full p-4 lg:p-[80px]">
+          <div
+            class="max-w-[1440px] w-full mx-auto grid content-between gap-y-4 grid-cols-1   lg:grid-cols-2 lg:gap-y-12"
+          >
+            <div class="cards max-w-[624px] w-full grid justify-between">
+              <img class="lg:min-h-[350px] cursor-pointer" src="t.png" alt="" />
+              <div class=" max-w-[503px] w-full">
+                <p class="mt-[12px] lg:mt-[24px]">Webinar</p>
+                <p class="text-[#1F2937] font-medium text[24px] lg:text-[30px] mt-[8px] lg:mt-[16px]">
+                  Newest Technology Of Marketing
+                </p>
+                <p class="text-[#1F2937] font-medium text-[10px] lg:text-[16px] mt-2 lg:mt-[16px]">
+                  23 January 2023
+                  <span class="text-[#4B5563] text-[10px] lg:text-[16px] font-normal italic"
+                    >Wednesday</span
+                  >
+                </p>
+                <button
+                  class="regiter-now  bg-black mt-[24px] lg:mt-[48px] text-white px-2 py-2 lg:px-[14px] lg:py-[16px] rounded-[40px]"
+                >
+                  Register Now
+                </button>
+              </div>
+            </div>
+            <div class="cards max-w-[624px] w-full grid justify-between">
+              <img class="lg:min-h-[350px] cursor-pointer" src="c.png" alt="" />
+              <div class="text max-w-[503px] w-full">
+                <p class="mt-[12px] lg:mt-[24px]">Event</p>
+                <p class="text-[#1F2937] font-medium text-[18px] lg:text-[30px] mt-[8px] lg:mt-[16px]">
+                  Newest Technology Of Marketing
+                </p>
+                <p class="text-[#1F2937] font-medium text-[10px] lg:text-[16px] mt-2 lg:mt-[16px]">
+                  23 January 2023
+                  <span class="text-[#4B5563] text-[10px] lg:text-[16px] font-normal italic"
+                    >Wednesday</span
+                  >
+                </p>
+                <button
+                  class="regiter-now bg-black  mt-[24px] lg:mt-[48px] text-white px-2 py-2 lg:px-[14px] lg:py-[16px] rounded-[40px]"
+                >
+                  Register Now
+                </button>
+              </div>
+            </div>
+            <div class="cards max-w-[624px] w-full grid justify-between">
+              <img class="lg:min-h-[350px] cursor-pointer" src="y.png" alt="" />
+              <div class="text max-w-[503px] w-full">
+                <p class="mt-[12px] lg:mt-[24px]">Webinar</p>
+                <p class="text-[#1F2937] font-medium text-[18px] lg:text-[30px] mt-[8px] lg:mt-[16px]">
+                  Newest Technology Of Marketing
+                </p>
+                <p class="text-[#1F2937] font-medium text-[10px] lg:text-[16px] mt-[8px] lg:mt-[16px]">
+                  23 January 2023
+                  <span class="text-[#4B5563] text-[10px] lg:text-[16px] font-normal italic"
+                    >Wednesday</span
+                  >
+                </p>
+                <button
+                  class="regiter-now bg-black mt-[24px] lg:mt-[48px] text-white px-2 py-2 lg:px-[14px] lg:py-[16px] rounded-[40px]"
+                >
+                  Register Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="w-full bg-[#F4F4F4] overflow-hidden">
+        <div class="max-w-[1440px] mx-auto h-full w-full relative">
+          <div
+            class="absolute right-0 vertical-gradient blur-[80px] h-full opacity-10 lg:h-[700px] w-[350px] mt-[10%] lg:blur-[180px] lg:opacity-20"
+          ></div>
+          <div
+            class="absolute left-0 vertical-gradient blur-[80px] opacity-10 h-full lg:h-[700px] w-[350px] mt-[10%] lg:blur-[200px] lg:opacity-20"
+          ></div>
+          <section
+            class="max-w-[431px] mx-auto lg:max-w-[1062px] lg:mx-auto w-full py-4 lg:py-[80px] relative z-50"
+          >
+            <div class="event max-w-[1062px] w-full grid justify-between">
+              <div class="heading max-w-[806px] w-full mx-auto lg:mx-[128px]">
+                <p
+                  class="font-medium leading-8 lg:leading-[48px] tracking-[-1px] text-[#1F2937] text-center font-Poppins text-[26px] md:text-[32px] lg:text-[48px]"
+                >
+                  Most Popular Events and Webinars
+                </p>
+                <p
+                  class="font-normal text-[#4B5563] text-center font-Poppins text-[14px] md:text-[18px] lg:text-[26px] pt-[14px]"
+                >
+                  We saved the good stuff for you :) Enjoy they are free
+                </p>
+              </div>
+              <div
+                class="eventcontainer w-full rounded-[20px] border grid justify-between mt-4 lg:mt-[40px] gap-y-4 lg:gap-y-8"
+              >
+                <div
+                  class="px-4 py-4 gap-4 lg:flex lg:px-[40px] lg:py-[40px] lg:gap-32 rounded-[20px] border"
+                >
+                  <img src="a.png" alt="" class="cursor-pointer" />
+                  <div>
+                    <p
+                      class=" mt-2 text-[24px] lg:mt-0 lg:text-[24px] font-medium text-[#1F2937] font-Poppins"
+                    >
+                      Mistakes that ruin your marketing strategies!
+                    </p>
+                    <p class="font-medium text-[#4B5563] font-Poppins">
+                      <span class="text-[#1F2937] font-bold">Speakers</span> :
+                      Leslie Jackson , Jeon Jungkook
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563]font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold"
+                        >Speaking time</span
+                      >
+                      : 40 minutes
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold">Release date</span>
+                      : 20 December 2023
+                    </p>
+                    <button
+                      class="rounded-[40px] flex justify-between max-w-[132px] w-full border border-black px-[12px] py-[4px] text-center bg-white text-[#000000] font-normal mt-[20px]"
+                    >
+                      <p>Replay Now</p>
+                      <span class="py-[7px]"
+                        ><svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10.908 5.23835L2.41467 10.3309C2.36217 10.1384 2.33301 9.93418 2.33301 9.72418V4.27585C2.33301 2.47918 4.27551 1.35918 5.83301 2.25752L8.18967 3.61668L10.5522 4.98168C10.6805 5.05752 10.803 5.13918 10.908 5.23835Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M10.5521 9.01838L8.1896 10.3834L5.83293 11.7425C4.71876 12.3842 3.40626 11.9992 2.75293 11.06L2.99793 10.9142L11.4213 5.86255C12.0046 6.91255 11.7188 8.34755 10.5521 9.01838Z"
+                            fill="black"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="px-4 py-4 gap-4  lg:flex lg:px-[40px] lg:py-[40px] lg:gap-32 rounded-[20px] border"
+                >
+                  <img src="b..png" alt="" class="cursor-pointer" />
+                  <div>
+                    <p
+                      class="mt-2 lg:mt-0 text-[24px] font-medium text-[#1F2937] font-Poppins"
+                    >
+                      Ace your next project by reading this
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold">Speakers</span> :
+                      Leslie Jackson , Jeon Jungkook
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold"
+                        >Speaking time</span
+                      >
+                      : 40 minutes
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold">Release date</span>
+                      : 20 December 2023
+                    </p>
+                    <button
+                      class="rounded-[40px] flex justify-between max-w-[132px] w-full border border-black px-[12px] py-[4px] text-center bg-white text-[#000000] font-normal mt-[20px]"
+                    >
+                      <p>Replay Now</p>
+                      <span class="py-[7px]"
+                        ><svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10.908 5.23835L2.41467 10.3309C2.36217 10.1384 2.33301 9.93418 2.33301 9.72418V4.27585C2.33301 2.47918 4.27551 1.35918 5.83301 2.25752L8.18967 3.61668L10.5522 4.98168C10.6805 5.05752 10.803 5.13918 10.908 5.23835Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M10.5521 9.01838L8.1896 10.3834L5.83293 11.7425C4.71876 12.3842 3.40626 11.9992 2.75293 11.06L2.99793 10.9142L11.4213 5.86255C12.0046 6.91255 11.7188 8.34755 10.5521 9.01838Z"
+                            fill="black"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="px-4 py-4 gap-4  lg:flex lg:px-[40px] lg:py-[40px] lg:gap-32 rounded-[20px] border"
+                >
+                  <img src="d.png" alt="" class="cursor-pointer" />
+                  <div>
+                    <p
+                      class="mt-2 lg:mt-0 text-[24px] font-medium text-[#1F2937] font-Poppins"
+                    >
+                      10 tips and tricks to make SEO work
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold">Speakers</span> :
+                      Leslie Jackson , Jeon Jungkook
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold"
+                        >Speaking time</span
+                      >
+                      : 40 minutes
+                    </p>
+                    <p
+                      class="text-[16px] font-medium text-[#4B5563] font-Poppins"
+                    >
+                      <span class="text-[#1F2937] font-bold">Release date</span>
+                      : 20 December 2023
+                    </p>
+                    <button
+                      class="rounded-[40px] flex justify-between max-w-[132px] w-full border border-black px-[12px] py-[4px] text-center bg-white text-[#000000] font-normal mt-[20px]"
+                    >
+                      <p>Replay Now</p>
+                      <span class="py-[7px]"
+                        ><svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10.908 5.23835L2.41467 10.3309C2.36217 10.1384 2.33301 9.93418 2.33301 9.72418V4.27585C2.33301 2.47918 4.27551 1.35918 5.83301 2.25752L8.18967 3.61668L10.5522 4.98168C10.6805 5.05752 10.803 5.13918 10.908 5.23835Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M10.5521 9.01838L8.1896 10.3834L5.83293 11.7425C4.71876 12.3842 3.40626 11.9992 2.75293 11.06L2.99793 10.9142L11.4213 5.86255C12.0046 6.91255 11.7188 8.34755 10.5521 9.01838Z"
+                            fill="black"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="bg-[#FFFFFF] w-full">
+        <section
+          class="max-w-[1440px] mx-auto w-full px-4 pt-4  lg:px-[80px]  lg:pt-[80px] lg:pb-[88px]"
+        >
+          <div class="footer max-w-[1280px] w-full gap-x-8">
+            <div class="lg:flex justify-between">
+              <div
+                class="max-w-[828px] w-full min-h-[182px] mt-[33px] grid gap-x-8 grid-cols-2 lg:grid-cols-4 gap-y-12"
+              >
+                <div
+                  class="max-w-[188px] min-h-[182px] w-full grid gap-y-6"
+                >
+                  <p
+                    class="text-[24px] text-[#1F2937] font-medium cursor-pointer"
+                  >
+                    Products
+                  </p>
+                  <div class="max-w-[188px] w-full min-h-[134px] grid gap-y-4 ">
+                    <p class=" text-[#4B5563] font-normal">
+                      Email Marketing
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Website Builder
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Market Automation
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Softwares
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Marketing Softwares
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="max-w-[188px] w-full min-h-[152px] grid gap-y-6 "
+                >
+                  <p
+                    class="text-[24px] text-[#1F2937] font-medium cursor-pointer"
+                  >
+                    Support
+                  </p>
+                  <div class="max-w-[188px] w-full min-h-[104px] mb-[30px] grid gap-y-4">
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Generate Leads
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Size Guide
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Shipping
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Payment Security
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="max-w-[188px] w-full min-h-[152px] grid gap-y-6"
+                >
+                  <p
+                    class="text-[24px] text-[#1F2937] font-medium cursor-pointer"
+                  >
+                    Solutions
+                  </p>
+                  <div class="max-w-[188px] w-full  min-h-[104px] mb-[30px] grid gap-y-4">
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Generate Leads
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Self Knowledge
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Work from home
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Engage Customers
+                    </p>
+                  </div>
+                </div>
+                <div class="max-w-[188px]  w-full max-h-[92px] grid gap-y-6">
+                  <p
+                    class="text-[24px] text-[#1F2937] font-medium cursor-pointer"
+                  >
+                    Company
+                  </p>
+                  <div class="max-w-[188px] min-h-[44px] grid gap-y-4 ">
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Teams
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer "
+                    >
+                      News
+                    </p>
+                  </div>
+                </div>
+                <div class="max-w-[188px] min-h-[122px] w-full gap-y-6 grid ">
+                  <p
+                    class="text-[24px] text-[#1F2937] font-medium cursor-pointer "
+                  >
+                    About Us
+                  </p>
+                  <div class="max-w-[188px] min-h-[74px]  w-full grid gap-y-4">
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Career
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Our journey
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Innovation
+                    </p>
+                  </div>
+                </div>
+                <div class="max-w-[188px] min-h-[122px] gap-y-6 w-full grid ">
+                  <p
+                    class="text-[24px] text-[#1F2937] font-medium cursor-pointer"
+                  >
+                    Pricing
+                  </p>
+                  <div class="max-w-[188px] w-full grid min-h-[74px] gap-y-4">
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer "
+                    >
+                      Integration
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Affliate Program
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Agency Partner
+                    </p>
+                  </div>
+                </div>
+                <div class="max-w-[188px]  w-full max-h-[92px] grid gap-y-4">
+                  <p
+                    class=" text-[24px] text-[#1F2937] font-medium cursor-pointer"
+                  >
+                    Other
+                  </p>
+                  <div class="max-w-[188px] min-h-[44px] w-full grid gap-y-4">
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Events
+                    </p>
+                    <p
+                      class=" text-[#4B5563] font-normal cursor-pointer"
+                    >
+                      Success stories
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-[40px]  mx-auto grid lg:max-w-[400px] lg:mt-0 ">
+                <div class=" mt-[40px] lg:mt-0 lg:flex gap-8 ">
+                  <img
+                    src="q.png"
+                    alt=""
+                    class="max-w-[180px] w-full cursor-pointer"
+                  />
+                  <p
+                    class="font-normal text-[#1F2937] mt-4 text-left"
+                  >
+                    Email marketing for beginners
+                  </p>
+                </div>
+                <div class="mt-[20px] lg:flex gap-8">
+                  <img
+                    src="w.png"
+                    alt=""
+                    class="max-w-[180px] w-full cursor-pointer"
+                  />
+                  <p
+                    class="text-[16px] font-normal text-[#1F2937] mt-4 text-left "
+                  >
+                    Why listening to <br>experts is important?
+                  </p>
+                </div>
+                <div class="mt-[20px] lg:flex gap-8">
+                  <img
+                    src="e.png"
+                    alt=""
+                    class="max-w-[180px] w-full cursor-pointer"
+                  />
+                  <p
+                    class="text-[16px] font-normal text-[#1F2937] mt-4  text-start lg:text-left"
+                  >
+                    Better SEO tips and <br>tricks
+                  </p>
+                </div>
+                <button
+                  class="mt-[32px] border rounded-[40px] border-[#1F2937] max-w-[400px]  min-h-[38px]"
+                >
+                  <p class="text-[#1F2937] text-[14px] font-medium">
+                    Read More Blogs
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div class="max-w-[1440px] w-full mx-auto pb-6 lg:pb-[20px] pt-[30px] lg:flex justify-between">
+              <div class="">
+                <p class="text-[20px] lg:text-[14px] font-normal text-[#1F2937] mt-[10px]">
+                  2020 The Good Company. All Rights Reserved
+                </p>
+              </div>
+              <div
+                class="navicon mt-[10px] w-[216px] flex justify-between items-center cursor-pointer"
+              >
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M21.5 11.0637C21.5 5.26528 16.7984 0.563721 11 0.563721C5.20156 0.563721 0.5 5.26528 0.5 11.0637C0.5 16.3043 4.33906 20.6483 9.35938 21.4367V14.0998H6.69266V11.0637H9.35938V8.75044C9.35938 6.11934 10.9273 4.66481 13.3255 4.66481C14.4744 4.66481 15.6763 4.87013 15.6763 4.87013V7.45435H14.3516C13.048 7.45435 12.6402 8.26341 12.6402 9.09497V11.0637H15.552L15.087 14.0998H12.6406V21.4376C17.6609 20.6497 21.5 16.3058 21.5 11.0637Z"
+                    fill="#6B7280"
+                  />
+                </svg>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.8205 1.5H3.29437C2.33672 1.5 1.5 2.18906 1.5 3.13547V20.7005C1.5 21.652 2.33672 22.5 3.29437 22.5H20.8153C21.7781 22.5 22.5 21.6464 22.5 20.7005V3.13547C22.5056 2.18906 21.7781 1.5 20.8205 1.5ZM8.00953 19.0045H5.00109V9.65063H8.00953V19.0045ZM6.60938 8.22844H6.58781C5.625 8.22844 5.00156 7.51172 5.00156 6.61453C5.00156 5.70094 5.64141 5.00109 6.62578 5.00109C7.61016 5.00109 8.2125 5.69578 8.23406 6.61453C8.23359 7.51172 7.61016 8.22844 6.60938 8.22844ZM19.0045 19.0045H15.9961V13.89C15.9961 12.6647 15.5583 11.8275 14.4698 11.8275C13.6383 11.8275 13.1461 12.39 12.9272 12.938C12.8452 13.1348 12.8231 13.403 12.8231 13.6767V19.0045H9.81469V9.65063H12.8231V10.9523C13.2609 10.3289 13.9448 9.43172 15.5363 9.43172C17.5111 9.43172 19.005 10.7334 19.005 13.5398L19.0045 19.0045Z"
+                    fill="#6B7280"
+                  />
+                </svg>
+                <svg
+                  width="24"
+                  height="18"
+                  viewBox="0 0 24 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.25 2.13258C22.406 2.4993 21.513 2.74091 20.5992 2.84976C21.5595 2.28744 22.2817 1.39409 22.6303 0.337264C21.7224 0.868166 20.7307 1.24067 19.6978 1.43883C19.2629 0.982981 18.7397 0.620344 18.1603 0.372957C17.5808 0.125569 16.9571 -0.0014007 16.327 -0.000236203C13.7761 -0.000236203 11.7117 2.03414 11.7117 4.54195C11.7099 4.89078 11.7499 5.23857 11.8308 5.57789C10.0016 5.49214 8.2104 5.02551 6.57187 4.20785C4.93333 3.3902 3.48351 2.23953 2.31516 0.829451C1.90527 1.52044 1.6885 2.30885 1.6875 3.11226C1.6875 4.68726 2.50922 6.07945 3.75 6.89508C3.01487 6.87763 2.29481 6.68306 1.65094 6.32789V6.38414C1.65094 8.58726 3.24469 10.4201 5.35406 10.8373C4.9574 10.943 4.54864 10.9966 4.13812 10.9966C3.84683 10.9971 3.5562 10.9689 3.27047 10.9123C3.85687 12.717 5.56359 14.0295 7.58531 14.067C5.94252 15.333 3.9256 16.0173 1.85156 16.0123C1.48341 16.0117 1.11561 15.9898 0.75 15.9466C2.85993 17.2939 5.31255 18.0066 7.81594 17.9998C16.3172 17.9998 20.9616 11.0763 20.9616 5.07164C20.9616 4.87476 20.9564 4.67789 20.947 4.4857C21.8485 3.84448 22.6283 3.04763 23.25 2.13258Z"
+                    fill="#6B7280"
+                  />
+                </svg>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.0023 1.5C6.20388 1.5 1.50232 6.20156 1.50232 12C1.50232 16.2984 4.08982 19.9922 7.78826 21.6188C7.76013 20.8875 7.78357 20.0062 7.97107 19.2094C8.17263 18.3562 9.32107 13.4859 9.32107 13.4859C9.32107 13.4859 8.98357 12.8156 8.98357 11.8266C8.98357 10.2703 9.88357 9.10781 11.0086 9.10781C11.9648 9.10781 12.4242 9.825 12.4242 10.6828C12.4242 11.6437 11.8101 13.0781 11.4961 14.4094C11.2336 15.525 12.0539 16.4297 13.1554 16.4297C15.1429 16.4297 16.4836 13.875 16.4836 10.8469C16.4836 8.54531 14.932 6.825 12.1148 6.825C8.93201 6.825 6.94451 9.20156 6.94451 11.8547C6.94451 12.7687 7.21638 13.4156 7.63826 13.9125C7.83044 14.1422 7.85857 14.2359 7.78826 14.4984C7.73669 14.6906 7.62419 15.1547 7.57263 15.3422C7.50232 15.6094 7.28669 15.7031 7.04763 15.6047C5.58044 15.0047 4.89607 13.4016 4.89607 11.5922C4.89607 8.61094 7.41326 5.03438 12.4008 5.03438C16.4086 5.03438 19.0476 7.93594 19.0476 11.0484C19.0476 15.1687 16.7554 18.2438 13.3804 18.2438C12.2461 18.2438 11.182 17.6297 10.8164 16.9359C10.8164 16.9359 10.207 19.3547 10.0758 19.8234C9.85544 20.6344 9.41951 21.4406 9.02107 22.0734C9.98758 22.3586 10.9899 22.5038 11.9976 22.5047C17.7961 22.5047 22.4976 17.8031 22.4976 12.0047C22.4976 6.20625 17.8008 1.5 12.0023 1.5Z"
+                    fill="#6B7280"
+                  />
+                </svg>
+                <svg
+                  width="24"
+                  height="18"
+                  viewBox="0 0 24 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.8425 3.97453C23.8425 1.86516 22.291 0.168281 20.3738 0.168281C17.7769 0.0468748 15.1285 0 12.4219 0H11.5782C8.87817 0 6.22504 0.0468749 3.62817 0.16875C1.71567 0.16875 0.164103 1.875 0.164103 3.98437C0.0469159 5.65266 -0.00277159 7.32141 4.091e-05 8.99016C-0.00464659 10.6589 0.0484784 12.3292 0.159416 14.0011C0.159416 16.1105 1.71098 17.8214 3.62348 17.8214C6.3516 17.948 9.15004 18.0042 11.9954 17.9995C14.8454 18.0089 17.636 17.9495 20.3672 17.8214C22.2844 17.8214 23.836 16.1105 23.836 14.0011C23.9485 12.3277 24 10.6589 23.9954 8.98547C24.006 7.31672 23.955 5.64641 23.8425 3.97453ZM9.70317 13.5886V4.37766L16.5 8.98078L9.70317 13.5886Z"
+                    fill="#6B7280"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
